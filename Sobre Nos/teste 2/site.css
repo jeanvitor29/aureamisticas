@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script&family=Lora:ital@1&family=Pacifico&display=swap');
+
+body{
+    font-family: Dancing Script;
+    background-image:url(final.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sobre{
+    border: 15px solid rgb(248, 206, 245);
+    border-style: double;
+   background-color: rgb(200, 162, 235);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: row;
+    align-items: center;
+    margin-right: 300px;
+    margin-bottom: 150px;
+    
+}
+.magem{
+    background-color: black;
+    border: black solid 2px;
+    height: 250px;
+    width: 600px;
+}
+.palavra{
+    text-align: center;
+}
+.sobre2{
+    border: 15px solid rgb(248, 206, 245);
+    border-style: double;
+   background-color: rgb(200, 162, 235);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: row;
+    align-items: center;
+    margin-left: 300px;
+    margin-bottom: 250px;
+}
+.magem2{
+    background-color: black;
+    border: black solid 2px;
+    height: 250px;
+    width: 600px;
+}
+.palavra2{
+    text-align: center;
+}
+.sobre3{
+    border: 15px solid rgb(248, 206, 245);
+    border-style: double;
+   background-color: rgb(200, 162, 235);
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: row;
+    height: 300px;
+    align-items: center;
+    margin-right: 300px;
+    margin-bottom: 150px;
+}
+.magem3{
+    background-image: url(https://img.freepik.com/fotos-gratis/setas-representativas-da-economia_23-2148542024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 300px;
+    width: 400px;
+}
+.palavra3{
+    text-align: center;
+    height: 250px;
+    width: 800px;
+    
+}

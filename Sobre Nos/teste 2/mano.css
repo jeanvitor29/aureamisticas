@@ -1,0 +1,12 @@
+.sobre{
+border: 2px solid black;
+display: flex;
+}
+.margem{
+height: 300px;
+width: 400px;
+background-color: black;
+}
+.palavra{
+
+}

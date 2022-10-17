@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script&family=Lora:ital@1&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 28px;
+
+}
+
+body {
+    background-image: url(./Imagensprincipais/teste2.png);
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(213, 155, 247);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    font-family: 'Lobster', cursive;
+    border-bottom: solid 2px black;
+}
+
+nav .logo {
+    color: rgb(255, 0, 200);
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 9px;
+}
+
+nav ul li a {
+    color: rgb(255, 0, 200);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: rgb(79, 17, 85);
+}
+
+nav .menu-btn i {
+    color: rgb(170, 0, 145);
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:920px) {
+    nav .menu-btni {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(179, 26, 153);
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul li .open {
+        left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: rgb(79, 17, 85);
+    }
+}
+
+
+.titu {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 80px;
+    font-family: Dancing Script;
+    ;
+    color: blueviolet;
+    text-shadow:
+        -2px -2px 0px rgb(0, 0, 0),
+        -2px 2px 0px rgb(0, 0, 0),
+        2px -2px 0px rgb(0, 0, 0),
+        2px 0px 0px rgb(0, 0, 0);
+}
+
+.sobre {
+    border: 15px solid rgb(248, 206, 245);
+    border-style: double;
+    background-color: rgb(200, 162, 235);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: row;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-bottom: 150px;
+    height: 400px;
+    font-family: Dancing Script;
+}
+
+.magem {
+    background-image: url(./Imagensprincipais/Áurea\ Mística.png);
+    background-size: cover;
+    border: black solid 2px;
+    height: 250px;
+    width: 350px;
+}
+
+.palavra {
+    text-align: center;
+    width: 700px;
+}
+.pcaixa {
+
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+
+}
+.logo1{
+    width:145px;
+    height: 78px;
+    border: 2px solid rgb(191, 94, 247);
+    border-radius: 40px;
+
+}
+
+.primeiro {
+    border: 20px solid  rgb(227, 197, 255);
+    border-style: double;
+    border-radius: 90px;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-family: Dancing Script;
+    background-color: rgb(201, 156, 243);
+
+}
+
+.sobre2 {
+    border: 15px solid rgb(248, 206, 245);
+    border-style: double;
+    background-color: rgb(200, 162, 235);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: row;
+    align-items: center;
+    margin-left: 300px;
+    margin-bottom: 150px;
+    font-family: Dancing Script;
+}
+
+
+
+.palavra2 {
+    text-align: center;
+}
+
+.sobre3 {
+    border: 15px solid rgb(248, 206, 245);
+    border-style: double;
+    background-color: rgb(200, 162, 235);
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: row;
+    height: 350px;
+    width: 1000px;
+    align-items: center;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    font-family: Dancing Script;
+}
+
+ 
+
+
+.palavra3 {
+    text-align: center;
+    height: 250px;
+    width: 800px;
+
+}
+
+.rodape {
+    border-top: 5px double rgb(179, 16, 185);
+    height: 200px;
+    width: 1518px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Lobster';
+
+}
+
+.redes {
+    background-image: url(./Imagensprincipais/rederodape.png);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    height: 75px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.atendimento {
+    color: rgb(93, 15, 132);
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.pagamento {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}

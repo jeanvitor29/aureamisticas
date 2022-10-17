@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script&family=Lora:ital@1&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+body {
+    background-color: rgb(245, 227, 248);
+}
+.logofoto{
+    height: 80px;
+    width: 145px;
+    border: 2px solid rgb(191, 94, 247);
+    border-radius: 40px;
+}
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(213, 155, 247);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+}
+
+nav .logo {
+    color: rgb(255, 0, 200);
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 9px;
+}
+
+nav ul li a {
+    color: rgb(255, 0, 200);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: rgb(79, 17, 85);
+}
+
+nav .menu-btn i {
+    color: rgb(170, 0, 145);
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:920px) {
+    nav .menu-btni {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(179, 26, 153);
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul li .open {
+        left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: rgb(79, 17, 85);
+    }
+}
+.nossos{
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(169, 73, 210);
+    background-color: rgba(223, 159, 243, 0.658);
+    text-shadow:
+        -2px -2px 0px rgb(0, 0, 0),
+        -2px 2px 0px rgb(0, 0, 0),
+        2px -2px 0px rgb(0, 0, 0),
+        2px 0px 0px rgb(0, 0, 0);
+}
+.pedras {
+    border-top: 10px rgb(145, 26, 230) double;
+    margin-top: 50px;
+    font-size: 60px;
+    color: rgb(145, 26, 230);
+    text-shadow: 0.1em 0.1em rgba(249, 197, 249, 0.565);
+    margin-bottom: 30px;
+    border-bottom: 10px rgb(145, 26, 230) double;
+
+}
+.pcaixa {
+
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+.primeiro {
+    border: 3px solid black;
+    border-style: hidden;
+    border-radius: 90px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-family: Dancing Script;
+    background-color: rgb(201, 156, 243);
+
+}
+
+.primeiro:hover {
+    background-color: rgb(221, 216, 216);
+    color: rgb(91, 28, 142);
+    border-color: rgb(91, 28, 142);
+    border:solid
+}
+.p{
+    color: rgb(91, 28, 142);
+    
+}
+.m{
+    color: rgb(91, 28, 142);
+    font-size: 30px;
+}
+.rodape {
+    border-top: 5px double rgb(179, 16, 185);
+    height: 200px;
+    width: 1490px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Lobster';
+
+}
+
+.redes {
+    background-image: url(./Imagensprincipais/rederodape.png);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    height: 75px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.atendimento {
+    color: rgb(93, 15, 132);
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.pagamento {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
